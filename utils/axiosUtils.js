@@ -6,9 +6,9 @@ const downloadAndSaveVehicles = async () => {
   // download json and store it in variable
   const data = await axios.get("https://swapi.dev/api/vehicles/?format=json");
   await fs.writeFile(fileName, JSON.stringify(data.data.results));
-  
+
   console.log(`🛰 🚀 🛸 ${fileName} saved!`);
-}
+};
 
 // export it due tests
-export { downloadAndSaveVehicles }
+export { downloadAndSaveVehicles };
