@@ -2,10 +2,10 @@
 
 ## TASKS
 
-1. install [axios](https://www.npmjs.com/package/axios) package - you can find instruction on website or in presentation
-2. install [prettier](https://www.npmjs.com/package/prettier) package
-3. create new script to run prettier for every js file in project
-4. do all tasks in `task-read.js` and `task-axios.js`
+1. Install [axios](https://www.npmjs.com/package/axios) package - you can find instruction on website or in presentation.
+2. Install [prettier](https://www.npmjs.com/package/prettier) package.
+3. Create new script to run prettier for every js file in project so you run something like `npm run prettier` and it run fix on your all files in project.
+4. Do all tasks in `task-read.js` and `task-axios.js`.
 
 ## Example
 
