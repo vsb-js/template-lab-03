@@ -1,0 +1,37 @@
+{
+  "name": "lab-03",
+  "version": "1.0.0",
+  "description": "Lab 03 - JavaScript VSB",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "start": "node test-dep.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsb-js/lab-03.git"
+  },
+  "private": "true",
+  "keywords": [
+    "JS",
+    "VSB"
+  ],
+  "contributors": [
+    {
+      "author": "Vojtech Cerveny <cervik49@gmail.com>"
+    },
+    {
+      "author": "Petr Vecera <vecera.petr@gmail.com>"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsb-js/lab-03/issues"
+  },
+  "homepage": "https://github.com/vsb-js/lab-03#readme",
+  "devDependencies": {
+    "jest": "^27.2.0"
+  },
+  "dependencies": {},
+  "type": "module"
+}
