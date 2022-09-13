@@ -11,4 +11,4 @@
 
 ## Example
 
-Example is in `test-dep.js` and whole function is in `utils/axiosUtils.js`. You can try run `node test-dep.js` if you installed axios correctly or not. Also if you run `npm test`, it should validate, if you installed all dependencies. Try it!
+You can try run `node test-dep.js` if you installed axios correctly or not. Also if you run `npm test`, it should validate, if you installed all dependencies. Try it!
