@@ -1,9 +1,11 @@
-// use this API  
+// How to use axios https://docs.google.com/presentation/d/1JrufeLjxbBKKjWqnj1l32hcouQ3Hw-8rMIn_zzCTF7U/edit#slide=id.gec017bc9e0_0_351
+
+// use this API
 const apiUrl = 'https://swapi.dev/api/planets/?format=json'
 // TASKS: 
-// 2. create function downloadPlanets for downloading data and return data.results
-// 3. create function parsePlanets for extraction names of planets and return sorted array
-// 4. create function savePlanets to save array of strings into file (as param)
+// 1. create function downloadPlanets, which will download the data and return data.results
+// 2. create function parsePlanets for extraction names of planets and return sorted array
+// 3. create function savePlanets to save array of strings into file (as param) named planets.txt
 // use these functions as whole, call them and create new file with names of planets
 
 
