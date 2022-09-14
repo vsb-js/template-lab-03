@@ -13,14 +13,14 @@ const apiUrl = 'https://swapi.dev/api/planets/?format=json'
 
 
 // no param, returns data.results from JSON 
-const downloadPlanets;
+let downloadPlanets;
 
 // function with one param - array of planets from donwloadPlanets
 // return sorted array of planet names
-const parsePlanets;
+let parsePlanets;
 
 // function with 2 params - fileName and array of planets
-const savePlanets;
+let savePlanets;
 
 
 
